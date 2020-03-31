@@ -1,0 +1,593 @@
+@charset "utf-8";
+
+body {
+  width: auto;
+  margin: 0 auto;
+  font-family: "Helvetica Neue", Helvetica, Arial, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+} 
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+  height: 0;
+}
+
+
+.header-left {
+  float: left;
+  margin-top: 50px;
+}
+
+.header-logo {
+  height: 70px;
+  margin-top: 50px;
+  margin-left: 90px;
+}
+
+.header-logo:hover {
+  opacity: 0.8;
+}
+
+.header-right {
+  float: right;
+}
+
+.header-right ul {
+  margin-right: 90px;
+}
+
+.header-right li {
+  list-style: none;
+  float: left;
+  color: white;
+  margin-right: 35px;
+  margin-top: 75px;
+  font-family: "Gill Sans Std Book", sans-serif;
+}
+
+.header-right li a {
+  color: white;
+  text-decoration: none;
+}
+
+.header-right li a:hover {
+  border-bottom:  1px solid white;
+  opacity: 0.8;
+}
+
+
+.content {
+  
+  margin: 0 auto;
+}
+
+footer {
+  background-color: #656C6E;
+} 
+
+
+.footer-first {
+  background-color: white;
+  height: 120px;
+  text-align: center;
+}
+
+.footer-first li {
+  float: left;
+  list-style: none;
+  margin-right: 30px;
+  margin-top: 25px;
+  width: 150px;
+  font-size: 12px;
+  padding: 13px 10px;
+  font-family: "Gill Sans Std Book", sans-serif;
+  letter-spacing: 0.05em;
+}
+
+.footer-first ul {
+  display: inline-block;
+}
+
+.footer-second {
+  background-color: #939899;
+  height: 90px;
+  text-align: center;
+}
+
+.footer-second ul {
+  display: inline-block;
+  margin-bottom: 50px;
+
+}
+
+.footer-second li {
+  float: left;
+  list-style: none;
+  margin-right: 40px;
+  padding: 20px 10px;
+  color: white;
+  font-size: 13px;
+  font-family: "Gill Sans Std Book", sans-serif;
+  letter-spacing: 0.05em;
+  font-weight: normal;
+}
+
+.footer-second li:hover {
+  opacity: 0.8;
+}
+
+.footer-second a {
+  color: white;
+  text-decoration: none;
+}
+.footer-last {
+  background-color: #656C6E;
+  height: 160px;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.footer-left {
+  float: left;
+}
+
+.footer-right {
+  float: right;
+  margin-top: 80px;
+  color: white;
+  margin-bottom: 50px;
+}
+
+.footer-logo {
+  height: 100px;
+  margin-top: 30px;
+}
+
+.footer-logo:hover  {
+  opacity: 0.8;
+}
+
+
+.share-facebook {
+  color: #4871A9;
+  border: 1px solid #4871A9;
+}
+
+.share-facebook:hover {
+  color: white;
+  background-color: #4871A9;
+}
+
+.share-twitter {
+  color: #70BDD3;
+  border: 1px solid #70BDD3;
+}
+
+.share-twitter:hover{
+  color: white;
+  background-color: #70BDD3;
+}
+
+.share-hatena {
+  color: #2F9BCD;
+  border: 1px solid  #2F9BCD ;
+}
+
+.share-hatena:hover {
+  color: white;
+  background-color: #2F9BCD;
+}
+
+header {
+  background-image: url(../images/main_visual_111-0x0.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: 100% auto;
+  height: 540px;
+  background-color: whitesmoke;
+  border-radius: 0 0 80px 80px;
+}
+
+.content-first {
+  height: 920px;
+  text-align: center;
+  background-color: whitesmoke;
+  font-family: "Helvetica Neue", Helvetica, Arial, 游ゴシック, YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, sans-serif;
+  padding: 10px 0;
+}
+.content-first {
+  text-align: left;
+  margin: 0 auto;
+}
+.content-first h1 {
+  margin-bottom: 75px;
+  font-size: 44px;
+  font-weight: normal;
+  margin-left: 505px;
+}
+
+.content-first p {
+  margin-bottom: 70px;
+  font-size: 20px;
+  margin-left: 445px;
+}
+
+.content-first h2 {
+  margin-left: 445px;
+}
+.product {
+  background-color: white;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.product-head h1 {
+  float: left;
+  margin-left: 225px;
+  margin-top: 110px;
+  font-family: "FuraCode Nerd Font", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.news-head h1{
+  float: left;
+  margin-left: 225px;
+  margin-top: 110px;
+  font-family: "FuraCode Nerd Font", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.product-head a {
+  float: right;
+  margin-right: 225px;
+  margin-top: 110px;
+  font-family: "Gill Sans Std Book", sans-serif;
+  ;
+  color: black;
+  text-decoration: none;
+  border: 1px solid black;
+  padding: 5px 30px;
+}
+
+.news-head a {
+  float: right;
+  margin-right: 225px;
+  margin-top: 110px;
+  font-family: "Gill Sans Std Book", sans-serif;
+  ;
+  color: black;
+  text-decoration: none;
+  border: 1px solid black;
+  padding: 5px 30px;
+}
+
+.product-icon {
+  float: left;
+  width: 195px;
+  height: 280px;
+  margin-bottom: 150px;
+  font-family: "Helvetica Neue", Helvetica, Arial, 游ゴシック, YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, sans-serif;
+}
+
+.product img {
+  width: 195px;
+  height: 280px;
+}
+
+.icon-1 {
+  margin-left: 250px;
+  margin-right: 75px;
+}
+
+.icon-2 {
+  margin-right: 75px;
+}
+
+.icon-3 {
+  margin-right: 250px;
+}
+
+.icon-4 {
+  margin-left: 250px;
+  margin-right: 75px;
+}
+
+.icon-5 {
+  margin-right: 75px;
+}
+
+.icon-6 {
+  margin-right: 250px;
+}
+
+dt::after {
+  content:  "";
+}
+
+.news {
+  background-color: whitesmoke;
+}
+
+.news-img {
+  float: left;
+  margin-left: 225px;
+  margin-right: 30px;
+}
+
+.news-img img {
+  width: 300px;
+  height: 175px;
+  padding-top: 20px;
+}
+.news-txt {
+  float: right;
+  width: 460px;
+  height: 255px;
+  margin-right: 225px;
+}
+
+.news-icon {
+  margin-top: 85px;
+}
+
+.top {
+  margin: 0 auto;
+}
+.pageTop-relative {
+  position: relative;
+  background-color: white;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin-left: 620px;
+}
+
+#pageTop {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+ 
+
+#pageTop i {
+  /*padding-top: 6px*/
+}
+
+ 
+
+#pageTop a {
+  display: block;
+  z-index: 999;
+  /*padding: 8px 0 0 8px;*/
+  border-radius: 30px;
+  width: 35px;
+  height: 35px;
+  background-color: white;
+  color:black;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+}
+
+ 
+
+#pageTop a:hover {
+  text-decoration: none;
+  opacity: 0.7;
+}
+
+.product-btn {
+  background-color: whitesmoke;
+  font-family: "Helvetica Neue", Helvetica, Arial, 游ゴシック, YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, sans-serif;
+  margin-bottom: 80px;
+}
+
+.product-btn a {
+  color: black;
+  text-decoration: none;
+}
+
+#product .product {
+  background-color: whitesmoke;
+}
+
+.back-top {
+  background:whitesmoke;
+  padding: 20px 0 100px 0;
+}
+
+.back-top a {
+  color: #000;
+  text-decoration: none;
+  border: 1px solid #000;
+  display: inline-block;
+  padding: 10px 20px;
+  font-weight: normal;
+  width: 200px;
+}
+
+.next-page {
+  border: 1px solid #000;
+  font-size: 14px;
+  padding: 8px 13px;
+  margin-right: 8px;
+}
+
+#product header {
+  background-image: url(../images/fdbc5ff355eecda21f063b701c8b6b72.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: fixed;
+  background-size: 100%;
+  height: 260px;
+  /*background-color: whitesmoke;*/
+  border-radius: 0 0 80px 80px;
+}
+
+#about .content {
+  background-color: whitesmoke;
+  padding-top: 10px;
+}
+.about {
+  text-align: center;
+}
+
+.about h2 {
+  margin-bottom: 75px; 
+}
+
+.explanation {
+  text-align: left;
+  margin-left: 220px;
+  font-size: 16px;
+  width: 825px;
+  height: 235px;
+  margin-top: 60px;
+}
+.about-second {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  width: 800px;
+  margin: 50px 255px 50px 255px;
+}
+
+.about-img {
+  flex-basis: 20%;
+  margin-right: 20px;
+  background: white;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.about-txt {
+  flex-basis: 35%;
+  background: white;
+  font-size: 13px;
+  padding: 20px;
+}
+
+.about-txt a {
+  color: black;
+  text-decoration: none;
+} 
+
+.paspol-logo {
+  width: 420px;
+  height: 300px;
+}
+
+#about .back-top {
+  margin-left: 580px;
+}
+
+#about header {
+  background-image: url(../images/41128410a1c9c552aff0f685c4bfab3c.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: fixed;
+  background-size: 100%;
+  height: 260px;
+  /*background-color: whitesmoke;*/
+  border-radius: 0 0 80px 80px;
+}
+
+.content-title {
+  text-align: left;
+  margin-left: 220px;
+  font-family:  "FuraCode Nerd Font", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";;
+  font-style: 12px;
+  font-weight: normal;
+}
+
+.sub-btn {
+  border:  solid  1px #000;
+  padding: 4px;
+  margin: 80px 2px 8px 100px;
+}
+
+#news .product-btn {
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+#news .back-top {
+  text-align: center;
+  padding-top: 40px;
+}
+
+#news .content {
+  background-color: whitesmoke;
+}
+
+#news header {
+  background-image: url(../images/5aafae338835b1fd1119f273565bd3de1.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: fixed;
+  background-size: 100%;
+  height: 260px;
+  /*background-color: whitesmoke;*/
+  border-radius: 0 0 80px 80px;
+}
+
+#contact .content {
+  background-color:  whitesmoke;
+  padding-top: 20px;
+}
+
+.contact {
+  margin-left: 225px;
+  padding-top: 115px;
+}
+
+.contact h2 {
+  margin-bottom: 70px;
+  font-family: "Gill Sans Std Book", sans-serif;;
+  font-weight: lighter;
+  font-size: 30px;
+}
+
+.contact a {
+  color: #000;
+}
+
+#contact .back-top {
+  text-align: center;
+  padding-top: 150px;
+}
+
+#contact header {
+  background-image: url(../images/7e5b7de0a02f15808796fe8cd4fc3ab3.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: fixed;
+  background-size: 100%;
+  height: 260px;
+  background-color: whitesmoke;
+  border-radius: 0 0 80px 80px;
+}
+
+.back-top a:hover {
+  background-color: #000;
+  color: white;
+}
+
+.icon {
+  font-family: "Gill Sans Std Book", sans-serif;;
+  font-weight: lighter;
+  font-size: 30px;
+  text-decoration: underline wavy gray;
+  background-size: 30px;
+}
+
+.more:hover {
+  background-color:  black;
+  color: white;
+}
+
