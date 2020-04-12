@@ -2,7 +2,9 @@
 
 body {
   width: auto;
+  max-width: 1300px;
   margin: 0 auto;
+  text-align: center;
   font-family: "Helvetica Neue", Helvetica, Arial, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
 } 
 
@@ -98,7 +100,6 @@ footer {
 .footer-second ul {
   display: inline-block;
   margin-bottom: 50px;
-
 }
 
 .footer-second li {
@@ -121,6 +122,7 @@ footer {
   color: white;
   text-decoration: none;
 }
+
 .footer-last {
   background-color: #656C6E;
   height: 160px;
@@ -180,7 +182,7 @@ footer {
 }
 
 header {
-  background-image: url(../images/main_visual_111-0x0.jpg);
+  background-image: url(../images/img1.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
@@ -198,29 +200,30 @@ header {
   padding: 10px 0;
 }
 .content-first {
-  text-align: left;
+  text-align: center;
   margin: 0 auto;
 }
 .content-first h1 {
   margin-bottom: 75px;
   font-size: 44px;
   font-weight: normal;
-  margin-left: 505px;
+  /*margin-left: 540px;*/
+  text-align: center;
 }
 
 .content-first p {
   margin-bottom: 70px;
   font-size: 20px;
-  margin-left: 445px;
+  /*margin-left: 445px;*/
+  text-align: center;
 }
 
 .content-first h2 {
-  margin-left: 445px;
+  /*margin-left: 445px;*/
+  text-align: center;
 }
 .product {
   background-color: white;
-  text-align: center;
-  margin: 0 auto;
 }
 
 .product-head h1 {
@@ -323,6 +326,7 @@ dt::after {
   height: 175px;
   padding-top: 20px;
 }
+
 .news-txt {
   float: right;
   width: 460px;
@@ -337,6 +341,7 @@ dt::after {
 .top {
   margin: 0 auto;
 }
+
 .pageTop-relative {
   position: relative;
   background-color: white;
@@ -344,6 +349,7 @@ dt::after {
   width: 50px;
   height: 50px;
   margin-left: 620px;
+  margin: 0 auto;
 }
 
 #pageTop {
@@ -351,8 +357,6 @@ dt::after {
   bottom: 20px;
   right: 20px;
 }
-
- 
 
 #pageTop i {
   /*padding-top: 6px*/

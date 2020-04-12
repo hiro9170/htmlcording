@@ -50,7 +50,7 @@ topBtn.click(function(){
   </script>
 </head>
 <body>
-  <header>
+  <header id="header">
     <!--<img id="mypic" src="images/main_visual_111-0x0.jpg">-->
     <div class="clearfix">
     <div class="header-left">
@@ -208,22 +208,16 @@ topBtn.click(function(){
       </div>
     </div>
   </footer>
-  <script>
-    var pics_src = new Array("images/main_visual_111-0x0.jpg","images/main_visual_13-0x0.jpg","images/main_visual_7-0x0.jpg");
-    var num = -1;
-
-    slideshow_timer();
-
-    function slideshow_timer(){
-        if (num == 2){
-            num = 0;
-        } 
-        else {
-            num ++;
-        }
-        document.getElementById("mypic").src=pics_src[num];
-        setTimeout("slideshow_timer()",1000); 
-    }
-    </script>
+      <script>
+        $(function() {
+  var i = 1;
+  setInterval(function() {
+    if(i > 3) i = 1;
+    $("#header").css("background","url('./images/img"+i+".jpg')");
+    i++;
+    }, 4000
+  );
+});
+      </script>
 </body>
 </html>
