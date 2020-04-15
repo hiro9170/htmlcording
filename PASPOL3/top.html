@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://unpkg.com/sanitize.css" rel="stylesheet"/>
+  <link href="css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <title>Document</title>
+  <script>
+    'use strict';
+    //■page topボタン
+
+$(function(){
+var topBtn=$('#pageTop');
+topBtn.hide();
+
+ 
+
+//◇ボタンの表示設定
+$(window).scroll(function(){
+  if($(this).scrollTop()>80){
+
+    //---- 画面を80pxスクロールしたら、ボタンを表示する
+    topBtn.fadeIn();
+
+  }else{
+
+    //---- 画面が80pxより上なら、ボタンを表示しない
+    topBtn.fadeOut();
+
+  }
+});
+
+ 
+
+// ◇ボタンをクリックしたら、スクロールして上に戻る
+topBtn.click(function(){
+  $('body,html').animate({
+  scrollTop: 0},500);
+  return false;
+
+});
+
+
+});
+  </script>
+</head>
+<body>
+  <header id="header">
+    <div class="header-flex">
+      <div class="header-left">
+        <img src="images/siteLogo-pc@2x.png" alt="" class="header-logo">
+      </div>
+      <div class="header-right">
+        <ul>
+          <li>TOP</li>
+          <li>PRODUCT</li>
+          <li>ABOUT</li>
+          <li>NEWS</li>
+          <li>CONTACT</li>
+        </ul>
+      </div>
+    </div>  
+  </header>
+  <article>
+
+
+    
+    <section class="content-first">
+      <div class="first-wrap">
+        <h2>旅に出よう。</h2>
+        <p>僕たちが作りたいのは
+        持っているだけで旅に出たくなるモノ。
+        持っているだけでわくわくするモノ。</p>
+        <p>それは新しい時代の “パスポート”
+        僕たちが作るものは、
+        そんな、存在でありたい。</p>
+        <p>そして、人と人が繋がる
+        こんな時代だからこそ、
+        僕たちは、みんなでひとつのモノを
+        作ることを追求したい。</p>
+        <p class="p-big">「PASPOL」</p>
+        <p>それは、自分と世界を繋げる
+        旅のモノづくりブランド</p>
+      </div>
+    </section>
+    
+    <section class="content-second">
+      <div class="second-flex">
+        <h3>PRODUCT</h3>
+        <a href="#">MORE  ></a>
+      </div>
+
+      <div class="second-flexx">
+        <div class="second-item">
+          <img src="images/365日本カレンダー_サムネイル1.png" alt="" class="second-image">
+          <p>365日日本一周 絶景日めくりカレンダー</p>
+        </div>
+        <div class="second-item">
+          <img src="images/365日本カレンダー_サムネイル1.png" alt="" class="second-image">
+          <p>365日日本一周 絶景日めくりカレンダー</p>
+        </div>
+        <div class="second-item">
+          <img src="images/365日本カレンダー_サムネイル1.png" alt="" class="second-image">
+          <p>365日日本一周 絶景日めくりカレンダー</p>
+        </div>
+        <div class="second-item">
+          <img src="images/365日本カレンダー_サムネイル1.png" alt="" class="second-image">
+          <p>365日日本一周 絶景日めくりカレンダー</p>
+        </div>
+        <div class="second-item">
+          <img src="images/365日本カレンダー_サムネイル1.png" alt="" class="second-image">
+          <p>365日日本一周 絶景日めくりカレンダー</p>
+        </div>
+        <div class="second-item">
+          <img src="images/365日本カレンダー_サムネイル1.png" alt="" class="second-image">
+          <p>365日日本一周 絶景日めくりカレンダー</p>
+        </div>
+      </div>
+    </section>
+     
+    <section class="content-third">
+      <div class="third-flex">
+        <h3>NEWS</h3>
+        <a href="#">MORE  ></a>
+      </div>
+
+      <div class="third-flexx">
+
+        <div class="third-items">
+          <div class="third-item">
+            <div class="img-third">
+              <img src="images/アンケートアイキャッチ.jpg" alt="" class="third-image">
+            </div>
+            <div class="third-txt">
+              <h4>新書籍「僕が旅人になった日」のアンケートにご協力下さい！</h4>
+              <p class="p-1">2019.9.15</p>
+              <p class="p-2">いつの間にか夜は肌寒くなってきて、もう夏も終わったんだな〜と実感しております。こんにちは、TABIPPOのROY（roy_world81）です。 7月まで「#旅とわたし」というテーマでみなさまの旅のエッセイを募集していました。（詳しくはこちら） 約4,300件の応募の中から掲載者が確定し、順調に書籍の制作に向けて動いております。ご投稿していただいたみなさま、改めてありがとうございます。 そんな旅人みんなで作る書籍「僕が旅人になった日」はエッセイだけではなく、未来の旅人が旅に出たくなるようなコンテ ...</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="third-items">
+          <div class="third-item">
+            <div class="img-third">
+              <img src="images/アンケートアイキャッチ.jpg" alt="" class="third-image">
+            </div>
+            <div class="third-txt">
+              <h4>新書籍「僕が旅人になった日」のアンケートにご協力下さい！</h4>
+              <p class="p-1">2019.9.15</p>
+              <p class="p-2">いつの間にか夜は肌寒くなってきて、もう夏も終わったんだな〜と実感しております。こんにちは、TABIPPOのROY（roy_world81）です。 7月まで「#旅とわたし」というテーマでみなさまの旅のエッセイを募集していました。（詳しくはこちら） 約4,300件の応募の中から掲載者が確定し、順調に書籍の制作に向けて動いております。ご投稿していただいたみなさま、改めてありがとうございます。 そんな旅人みんなで作る書籍「僕が旅人になった日」はエッセイだけではなく、未来の旅人が旅に出たくなるようなコンテ ...</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="third-items">
+          <div class="third-item">
+            <div class="img-third">
+              <img src="images/アンケートアイキャッチ.jpg" alt="" class="third-image">
+            </div>
+            <div class="third-txt">
+              <h4>新書籍「僕が旅人になった日」のアンケートにご協力下さい！</h4>
+              <p class="p-1">2019.9.15</p>
+              <p class="p-2">いつの間にか夜は肌寒くなってきて、もう夏も終わったんだな〜と実感しております。こんにちは、TABIPPOのROY（roy_world81）です。 7月まで「#旅とわたし」というテーマでみなさまの旅のエッセイを募集していました。（詳しくはこちら） 約4,300件の応募の中から掲載者が確定し、順調に書籍の制作に向けて動いております。ご投稿していただいたみなさま、改めてありがとうございます。 そんな旅人みんなで作る書籍「僕が旅人になった日」はエッセイだけではなく、未来の旅人が旅に出たくなるようなコンテ ...</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="third-items">
+          <div class="third-item">
+            <div class="img-third">
+              <img src="images/アンケートアイキャッチ.jpg" alt="" class="third-image">
+            </div>
+            <div class="third-txt">
+              <h4>新書籍「僕が旅人になった日」のアンケートにご協力下さい！</h4>
+              <p class="p-1">2019.9.15</p>
+              <p class="p-2">いつの間にか夜は肌寒くなってきて、もう夏も終わったんだな〜と実感しております。こんにちは、TABIPPOのROY（roy_world81）です。 7月まで「#旅とわたし」というテーマでみなさまの旅のエッセイを募集していました。（詳しくはこちら） 約4,300件の応募の中から掲載者が確定し、順調に書籍の制作に向けて動いております。ご投稿していただいたみなさま、改めてありがとうございます。 そんな旅人みんなで作る書籍「僕が旅人になった日」はエッセイだけではなく、未来の旅人が旅に出たくなるようなコンテ ...</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="third-items">
+          <div class="third-item">
+            <div class="img-third">
+              <img src="images/アンケートアイキャッチ.jpg" alt="" class="third-image">
+            </div>
+            <div class="third-txt">
+              <h4>新書籍「僕が旅人になった日」のアンケートにご協力下さい！</h4>
+              <p class="p-1">2019.9.15</p>
+              <p class="p-2">いつの間にか夜は肌寒くなってきて、もう夏も終わったんだな〜と実感しております。こんにちは、TABIPPOのROY（roy_world81）です。 7月まで「#旅とわたし」というテーマでみなさまの旅のエッセイを募集していました。（詳しくはこちら） 約4,300件の応募の中から掲載者が確定し、順調に書籍の制作に向けて動いております。ご投稿していただいたみなさま、改めてありがとうございます。 そんな旅人みんなで作る書籍「僕が旅人になった日」はエッセイだけではなく、未来の旅人が旅に出たくなるようなコンテ ...</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="third-items">
+          <div class="third-item">
+            <div class="img-third">
+              <img src="images/アンケートアイキャッチ.jpg" alt="" class="third-image">
+            </div>
+            <div class="third-txt">
+              <h4>新書籍「僕が旅人になった日」のアンケートにご協力下さい！</h4>
+              <p class="p-1">2019.9.15</p>
+              <pclass="p-2">いつの間にか夜は肌寒くなってきて、もう夏も終わったんだな〜と実感しております。こんにちは、TABIPPOのROY（roy_world81）です。 7月まで「#旅とわたし」というテーマでみなさまの旅のエッセイを募集していました。（詳しくはこちら） 約4,300件の応募の中から掲載者が確定し、順調に書籍の制作に向けて動いております。ご投稿していただいたみなさま、改めてありがとうございます。 そんな旅人みんなで作る書籍「僕が旅人になった日」はエッセイだけではなく、未来の旅人が旅に出たくなるようなコンテ ...</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="third-items">
+          <div class="third-item">
+            <div class="img-third">
+              <img src="images/アンケートアイキャッチ.jpg" alt="" class="third-image">
+            </div>
+            <div class="third-txt">
+              <h4>新書籍「僕が旅人になった日」のアンケートにご協力下さい！</h4>
+              <p class="p-1">2019.9.15</p>
+              <p class="p-2">いつの間にか夜は肌寒くなってきて、もう夏も終わったんだな〜と実感しております。こんにちは、TABIPPOのROY（roy_world81）です。 7月まで「#旅とわたし」というテーマでみなさまの旅のエッセイを募集していました。（詳しくはこちら） 約4,300件の応募の中から掲載者が確定し、順調に書籍の制作に向けて動いております。ご投稿していただいたみなさま、改めてありがとうございます。 そんな旅人みんなで作る書籍「僕が旅人になった日」はエッセイだけではなく、未来の旅人が旅に出たくなるようなコンテ ...</p>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </section>
+    
+  </article>
+  <div class="top">
+    <div class="pageTop-relative">
+      <p id="pageTop"><a href="#"><i class="fa fa-chevron-up"></i></a></p>
+    </div>
+  </div>
+  <footer>
+
+    <section class="footer-first">
+      <div class="one-wrap">
+        <a href="#">Share on Facebook</a>
+        <a href="#">Share on Twitter</a>
+        <a href="#">Hatena Bookmark</a>
+      </div>
+    </section>
+    
+    <section class="footer-second">
+      
+      <div class="two-wrap">
+        <a>TOP</a>
+        <a>PRODUCT</a>
+        <a>ABOUT</a>
+        <a>NEWS</a>
+        <a>CONTACT</a>
+      </div>
+    </section>
+
+    <section class="footer-third">
+      <div class="three-wrap">
+        <div class="footer-left">
+          <img src="images/siteLogo-small@2x.png" alt="" class="footer-logo">
+        </div>
+        <div class="footer-right">
+          <small>Copyright © 2020 PAS-POL -旅のモノづくりブランド-｜TABIPPO All rights reserved.</small>
+        </div>
+      </div>
+    </section>
+
+  </footer>
+  <script>
+    $(function() {
+var i = 1;
+setInterval(function() {
+if(i > 3) i = 1;
+$("#header").css("background","url('./images/img"+i+".jpg')");
+i++;
+}, 4000
+);
+});
+  </script> 
+</body>
+</html>
